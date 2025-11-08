@@ -1,5 +1,7 @@
 import json
 import os
 
-class EstadoGuardado
+class EstadoGuardado:
+
+  def
 
