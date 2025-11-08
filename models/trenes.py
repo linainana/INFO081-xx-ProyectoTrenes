@@ -14,5 +14,5 @@ class Tren:
     def pasajeros_decendidos(self, cantidad):
         self.cantidad_pasajeros = max(0, self.cantidad_pasajeros - cantidad)
 
-    def desripcion_tren(self):
+    def descripcion_tren(self):
         return f"{self.nombre} - Velocidad: {self.velocidad} km/h - Ocupación: {self.cantidad_pasajeros}/{self.capacidad_maxima}"
