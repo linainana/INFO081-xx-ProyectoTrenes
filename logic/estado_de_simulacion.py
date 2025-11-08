@@ -24,7 +24,8 @@ class EstadoSimulacion:
         ]
 
         self.rutas = [
-            Ruta("Estación Central", "Rancagua", 87)
+            Ruta("Estación Central", "Rancagua", 87),
+            Ruta("Estación Central", "Chillan", 467),
         ]
 
     def tiempo_avanzado(self, minutos):
