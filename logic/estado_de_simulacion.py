@@ -13,7 +13,7 @@ class EstadoSimulacion:
     def estado_inicial_simulacion(self):
         self.trenes = [
             Tren("Tren BMU", 160, 236),
-            Tren("Tren EMU – EFE SUR", 120, 180)
+            Tren("Tren EMU – EFE SUR", 120, 314)
         ]
 
         self.estaciones = [
