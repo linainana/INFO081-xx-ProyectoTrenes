@@ -11,7 +11,7 @@ class Tren:
         else:
             print(f"El tren {self.nombre} llegó a su capacidad máxima.")
 
-    def pasajeros_decendidos(self, cantidad):
+    def pasajeros_descendidos(self, cantidad):
         self.cantidad_pasajeros = max(0, self.cantidad_pasajeros - cantidad)
 
     def descripcion_tren(self):
