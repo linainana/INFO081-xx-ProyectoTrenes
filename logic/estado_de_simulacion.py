@@ -20,16 +20,16 @@ class EstadoSimulacion:
             Estacion("Estación Central", "RM", 8242459),
             Estacion("Rancagua", "O’Higgins", 274407),
             Estacion("Talca", "Maule", 242344),
-            Estacion("Chillan", "Ñuble", 204091)
+            Estacion("Chillán", "Ñuble", 204091)
         ]
 
         self.rutas = [
             Ruta("Estación Central", "Rancagua", 87),
             Ruta("Rancagua", "Talca", 200),
-            Ruta("Talca", "Chillan", 180),
-            Ruta("Chillan", "Talca", 180),
+            Ruta("Talca", "Chillán", 180),
+            Ruta("Chillán", "Talca", 180),
             Ruta("Talca", "Rancagua", 200),
-            Ruta("Rancagua", "Estacion Central", 87)
+            Ruta("Rancagua", "Estación Central", 87)
         ]
         conexiones = {
             "Estación Central": ["Rancagua", "Chillán"],
