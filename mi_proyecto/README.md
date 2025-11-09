@@ -17,4 +17,7 @@ si el flujo de personas es más alto.
 4. Los datos se guardarán en archivos locales con extensión .json, los que se cargarán al iniciar el sistema y se actualizarán cada vez que se realicen cambios,
    como por ejemplo, al agregar, cargar o guardar trenes.
 
-5. 
+5. Para poder acceder al archivo principal:
+#bash
+cd mi_proyecto  #para poder acceder a la carpeta que contiene main.py
+python main.py  #para correr el main.py
