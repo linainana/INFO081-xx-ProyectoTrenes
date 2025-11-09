@@ -51,6 +51,7 @@ def Ventana_principal(root):
         ventana_ID = tk.Toplevel(root)
         ventana_ID.title(f"Pestaña de ID {user_id}")
         ventana_ID.geometry("400x300")
+        ventana_ID.config(bg="#FFE0F9")
     
         # Contenido de la pestaña
         label_bienvenida = ttk.Label(ventana_ID, text=f"Bienvenido, usuario con ID: {user_id}")
