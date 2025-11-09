@@ -6,7 +6,9 @@ pasajeros en los horarios disponibles
 
 2. Integrantes: Josefa Farías, Isidora Llanquimán, Francisca Muñoz, Catalina Provoste, Escarlett Vargas.
 
-3. - Cantidad de personas activas: Muestra el número total de personas actualmente dentro de la simulación.  
+3. Indicadores en la interfaz:
+
+   - Cantidad de personas activas: Muestra el número total de personas actualmente dentro de la simulación.  
    Se actualiza a medida que las personas inician o finalizan sus recorridos entre estaciones.
    - Cantidad de trenes activos:  Muestra el número total de trenes actualmente en movimiento dentro de la simulación.  
    Se actualiza a medida que los trenes terminen sus recorridos o empiecen. -----------
