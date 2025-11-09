@@ -27,7 +27,9 @@ class EstadoSimulacion:
             Ruta("Estación Central", "Rancagua", 87),
             Ruta("Rancagua", "Talca", 200),
             Ruta("Talca", "Chillan", 180),
-            Ruta("Chillan", "Estacion Central", 467)
+            Ruta("Chillan", "Talca", 180),
+            Ruta("Talca", "Rancagua", 200),
+            Ruta("Rancagua", "Estacion Central", 87)
         ]
         conexiones = {
             "Estación Central": ["Rancagua", "Chillán"],
