@@ -1,6 +1,11 @@
 import tkinter as tk
 from tkinter import ttk
 from tkinter import messagebox
+with open("config/colores.json", "r", encoding="utf-8") as archivo: colores = json.load(archivo)
+with open("config/ventana.json","r", encoding="utf-8") as archivo: ventana = json.load(aechivo)
+
+
+#print(colores["texto"])  # → "#880e4f"
 
 # Crea la ventana principal
 def Ventana_principal(root):
