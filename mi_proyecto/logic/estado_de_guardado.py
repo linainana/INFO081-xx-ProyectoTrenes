@@ -9,6 +9,7 @@ class EstadoGuardado:
   def __init__(self, ruta_archivo="config/estado_guardado.json"):
     self.ruta_archivo = ruta_archivo
 
+
   def guardar(self, estado):
     """
     Guarda el diccionario 'estado' en un archivo JSON.
@@ -22,6 +23,7 @@ class EstadoGuardado:
         json.dump(estado, archivo_json, indent= 4, ensure_ascii=False)
     except Exception as e:
       print(f"Error al guardar en {self.ruta_archivo}:{e}")
+
   
   def cargar(self):
     """
